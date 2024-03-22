@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #203252;
+}
+
+.neural-network {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /*height: 100vh; No necesitas especificar altura aquí */
+}
+
+.custom-position {
+    top: 200px; /* Cambiar según la posición vertical deseada */
+    left: 10%; /* Centrado horizontalmente */
+    transform: translate(110%, -50%);
+}
+
+.custom-position_2 {
+    transform:translate(-200%, 200%);
+}
+
+.custom-position_3 {
+    transform:translate(0%, 250%);
+}
+
+.custom-position_4 {
+    transform:translate(370%, 0%);
+}
+
+.custom-position_5 {
+    transform:translate(-300%, -445%);
+}
+
+.neuron_big {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* Agregar estilos para centrar la neurona grande */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.neuron {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.linea {
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.linea1 {
+    width: 235%;
+    transform: translate(-14%, 13000%);
+    rotate: 32deg;
+
+}
+
+.linea2 {
+    width: 170%;
+    transform: translate(77%, -4500%);
+    rotate: 113deg;
+
+}
+
+.linea3 {
+    width: 119%;
+    transform: translate(-200%, 15500%);
+    rotate: -23deg;
+
+}
+
+.linea4 {
+    width: 150%;
+    transform: translate(-289%, -200%);
+    rotate: 272deg;
+
+}
+
+.linea5 {
+    width: 270%;
+    transform: translate(82%, 16000%);
+    rotate: 19deg;
+
+}
+
+
+
