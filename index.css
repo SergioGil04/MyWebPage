@@ -5,7 +5,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #203252;
+    background-image: url('images/code-coding.gif'); /* Cambia 'ruta_de_la_imagen.jpg' por la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
+    background-position: center;
 }
 
 .neural-network {
@@ -61,7 +63,7 @@ body {
 .neuron {
     width: 100px;
     height: 100px;
-    background-color: transparent;
+    background-color: #fff;;
     border: 2px solid #000;
     border-radius: 50%;
     display: flex;
@@ -71,7 +73,7 @@ body {
 }
 
 .linea {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #ffffff;;
     display: flex;
     justify-content: center;
     align-items: center;
