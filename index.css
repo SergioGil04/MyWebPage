@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('images/code-coding.gif'); /* Cambia 'ruta_de_la_imagen.jpg' por la ruta de tu imagen */
+    background-image: url('images/machine-learning-neural-networks-deep-learning.gif'); /* Cambia 'ruta_de_la_imagen.jpg' por la ruta de tu imagen */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
     background-position: center;
 }
@@ -113,6 +113,23 @@ body {
     transform: translate(82%, 16000%);
     rotate: 19deg;
 
+}
+
+.neuron_big:hover, .neuron:hover {
+    animation: pulse 0.5s infinite; /* Aplica la animación pulse en hover */
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 
